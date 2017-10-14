@@ -4,8 +4,8 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
 
-public class Jumble1 {
-    
+public class Jumble1 
+{
     public static ArrayList<String> words = new ArrayList();
     
     public static int unjumble(String word, String fin)
