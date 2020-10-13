@@ -16,7 +16,6 @@ public class Jumble1
             {
                 fin += word;
                 words.add(fin);
-                //System.out.println(fin);
                 return 0;
             }
                   
