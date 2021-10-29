@@ -8,7 +8,7 @@ public class Jumble1
 {
     public static ArrayList<String> words = new ArrayList();
     
-    public static int unjumble(String word, String fin)
+    public static void unjumble(String word, String fin)
     {         
         for (int i = 0; i < word.length(); i++)
         {
@@ -16,7 +16,7 @@ public class Jumble1
             {
                 fin += word;
                 words.add(fin);
-                return 0;
+                break;
             }
                   
             String temp = word.substring(i, i+1);
@@ -33,7 +33,6 @@ public class Jumble1
            
             unjumble(temp1, fin+temp);
         }
-        return 0;
     }
     
     public static void main(String[] args) throws Exception
